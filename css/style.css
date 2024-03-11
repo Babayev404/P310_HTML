@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container .aside{
+    margin: auto;
+    padding: 0 25px;
+}
+
+.container .header-section{
+    background-color: #f4f4f4;
+    padding: 25px 50px 25px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+.container .header-logo{
+    position: relative;
+}
+
+.container .header-section .header-search button{
+    background-color: #f4f4f4;
+    color: black;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    justify-content: space-between;
+    float: right;
+}
+
+.container .header-section .header-events button{
+    background-color: black;
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.container .header-section .header-support button{
+    background-color: #1d2a99;
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.title{
+    color: #df0000;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+}
+
+.posting .post-img{
+    margin-top: 50px;
+    object-fit: cover;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.post-autor{
+    margin-left: 23%;
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    padding: 5px 5px 5px 5px;
+}
+
+.post-autor .name{
+    color: red;
+}
+
+.post-autor .name2{
+    color: red;
+}
+
+.post-title{
+    color: black;
+    word-wrap:  normal;
+    text-align: center;
+}
+
+hr{
+    padding: 5px 5px 5px 5px;
+}
+
+.post-content{
+    margin: 15px 75px 35px 75px;
+    background-color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.post-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.date{
+    margin-left: 50px;
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
